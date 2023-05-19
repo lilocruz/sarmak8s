@@ -38,7 +38,7 @@ def watch_pods(core_api):
 
 def main():
     # Create argument parser
-    parser = argparse.ArgumentParser(description='Sarma Kubernetes Manager')
+    parser = argparse.ArgumentParser(description='Sarma Kubernetes Manager by Michael Cruz Sanchez')
 
     # Add subparsers for different commands
     subparsers = parser.add_subparsers(title='Commands', dest='command')
