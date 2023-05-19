@@ -63,8 +63,8 @@ def main():
     # Parse the command-line arguments
     args = parser.parse_args()
 
-    # Load the Kubernetes configuration from default location
-    config.load_kube_config()
+    # Load the Kubernetes 1uration from default location
+    config.load_kube_config(config_file='$HOME/.kube/config')
 
     # Create an instance of the Kubernetes API client
     api_client = client.ApiClient()
